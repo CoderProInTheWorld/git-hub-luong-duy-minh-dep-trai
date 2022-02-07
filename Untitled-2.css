@@ -1,0 +1,89 @@
+html{
+    background-color: rgb(247, 217, 217)
+}
+.banner {
+    text-align: center;
+    color: rgb(78, 74, 73);
+    border-bottom: 2px dotted red;
+    font-size: larger;
+}
+.banner h1 {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+body{
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: rgb(225, 243, 226);
+    box-shadow: rgb(225, 243, 226) 3px 3px 3px 3px;
+    margin-top: 200px
+}
+textarea{
+    border: 4px inset rgb(158, 151, 151);
+}
+#content {
+    padding: 5px;
+    height: 45px;
+    width: 400px;
+    resize: none;
+}
+.form-control button{
+    height: 62px;
+    line-height: 45px;
+    border: none;
+    padding: 5px;
+    background: rgb(165, 177, 176);
+    text-align: center;
+    width: 50%;
+    margin-left: 5px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.form-control button:hover {
+    box-shadow: 1px 1px 1px 1px black;
+}
+.form-control{
+    display: flex;
+    margin-top: 25px;
+}
+#list-task {
+    max-width: 410px;
+}
+#list-task h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#list-task ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#list-task ul li {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 238, 233);
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgb(226, 233, 127);    
+    box-shadow:rgb(88, 109, 10) 2px 2px 2px ;
+}
+#list-task ul li div {
+    width: 80%;
+    line-height: 27px;
+    
+}
+#list-task ul li a {
+    background-color: red;
+    border-radius: 3px;
+    padding: 0px 10px;
+    line-height: 27px;
+    text-decoration:none;
+    color: #333;
+}
+
+#list-task ul li a:hover{
+    box-shadow: rgb(202, 18, 18) 1px 1px 1px;
+    background-color: rgb(202, 18, 18);
+}
